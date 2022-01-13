@@ -37,14 +37,14 @@ a {
 #mynavigation {
   background: none;
   padding: 1rem 2rem;
-  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 #mynavigation .my-toggle {
   background: none;
   border-color: #24caac;
-  -webkit-box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
+  box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
   box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
 }
 
@@ -71,9 +71,9 @@ a {
 #mynavigation ul li a:hover {
   color: #24caac;
   border-radius: 5px;
-  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  -webkit-box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
+  transition: 0.5s ease;
+  box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
   box-shadow: 0 0 15px rgba(110, 199, 206, 0.5);
 }
 
@@ -135,37 +135,37 @@ a {
 
 @-webkit-keyframes zoom {
   0% {
-    -webkit-transform: scale(1);
+    transform: scale(1);
     transform: scale(1);
   }
   50% {
-    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
     transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(1);
+    transform: scale(1);
     transform: scale(1);
   }
 }
 
 @keyframes zoom {
   0% {
-    -webkit-transform: scale(1);
+    transform: scale(1);
     transform: scale(1);
   }
   50% {
-    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
     transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(1);
+    transform: scale(1);
     transform: scale(1);
   }
 }
 
 .about-sec {
   padding: 3rem 0;
-  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   background-color: #3e3f41;
   margin: 0 0.5rem;
@@ -184,7 +184,7 @@ a {
 
 .about-sec:hover {
   background-color: #e96e13;
-  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
@@ -203,7 +203,7 @@ button {
 button:hover {
   background-color: #24292d;
   color: #fff;
-  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -231,11 +231,11 @@ button:hover {
 
 .skill-sec:hover {
   background-color: #e96e13;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-  -webkit-transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
   transform: scale(1.05);
 }
 
@@ -269,11 +269,11 @@ button:hover {
 }
 
 .projects:hover {
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  -webkit-transform: scale(1.05);
+  transition: all 0.5s ease;
   transform: scale(1.05);
-  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
@@ -307,7 +307,7 @@ button:hover {
 
 .social:hover {
   color: #e96e13;
-  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
